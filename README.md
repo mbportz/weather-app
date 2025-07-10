@@ -94,23 +94,23 @@ This project uses **environment variables** to keep your API keys secure.
 ### ✅ How to use
 
 1️⃣ Copy the example file:
-\`\`\`bash
+```bash
 cp .env.example .env
-\`\`\`
+```
 
 2️⃣ Fill in your real `API_KEY`:
-\`\`\`env
+```env
 BASE_URL=https://api.openweathermap.org/
 API_KEY=YOUR_REAL_API_KEY
-\`\`\`
+```
 
 3️⃣ **Do not commit your `.env`!**
 Your `.gitignore` must include:
-\`\`\`gitignore
+```gitignore
 .env
 dist
 node_modules
-\`\`\`
+```
 
 ✅ On Vercel & GitHub Actions, set these in your **Project → Settings → Environment Variables** or workflow secrets.
 
