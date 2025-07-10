@@ -138,7 +138,7 @@ Pull requests trigger preview deploys for easy testing.
 
 ### Installation
 
-\`\`\`bash
+```bash
 # Clone the repository
 git clone https://github.com/mbportz/projects.git
 
@@ -153,23 +153,23 @@ npm run dev
 
 # Production build
 npm run build
-\`\`\`
+```
 
 ---
 
 ### ✅ Run tests
 
-\`\`\`bash
+```bash
 npm test
-\`\`\`
+```
 
 ---
 
 ### ✅ Lint your code
 
-\`\`\`bash
+```bash
 npm run lint
-\`\`\`
+```
 
 ---
 
